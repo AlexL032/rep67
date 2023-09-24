@@ -87,7 +87,7 @@ $(document).ready(function() {
 			<input readonly class="product0"></input>
 			<input readonly class="amount0"></input>
 			</div>`)
-			$('.product0').val("Product1");
+			$('.product0').val("Эkzo");
 			$('.amount0').val(cart[i]);
 					break;
 
@@ -96,7 +96,7 @@ $(document).ready(function() {
 					document.querySelector('.cart-body').insertAdjacentHTML(
 			'afterbegin',
 			`<div class="row">
-			<input readonly class="product1"></input>
+			<input readonly class="Эkzo"></input>
 			<input readonly class="amount1"></input>
 			</div>`)
 			$('.product1').val("Product2");
