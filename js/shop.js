@@ -80,7 +80,7 @@ $(document).ready(function() {
 	
 			switch(i) {
 				case 0:
-					//var t = "Product1";
+					//var t = "Эkzo";
 					document.querySelector('.cart-body').insertAdjacentHTML(
 			'afterbegin',
 			`<div class="row">
