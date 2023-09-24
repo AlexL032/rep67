@@ -80,14 +80,14 @@ $(document).ready(function() {
 	
 			switch(i) {
 				case 0:
-					//var t = "Эkzo";
+					//var t = "Product1";
 					document.querySelector('.cart-body').insertAdjacentHTML(
 			'afterbegin',
 			`<div class="row">
 			<input readonly class="product0"></input>
 			<input readonly class="amount0"></input>
 			</div>`)
-			$('.product0').val("Эkzo");
+			$('.product0').val("Product1");
 			$('.amount0').val(cart[i]);
 					break;
 
